@@ -1,15 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { AppService } from './app.service';
-
-export interface TableElement {
-  lab: string;
-  location: string;
-  positive: number;
-  negative: number;
-  inconclusive: number;
-  total: number;
-}
+import { AppService, TableDataRow } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -18,8 +9,8 @@ export interface TableElement {
 })
 export class AppComponent implements OnInit {
   displayedColumns: string[] = ['lab', 'location', 'positive', 'negative', 'inconclusive', 'total'];
-  tableData: any[] = [];
-  initialTableData: any[] = [];
+  tableData: TableDataRow[] = [];
+  initialTableData: TableDataRow[] = [];
   labs = new FormControl();
   labsList: string[] = [];
   locations = new FormControl();

@@ -12,7 +12,7 @@ interface ServiceResponseEl {
   Total: number;
 }
 
-export interface ResponseEl {
+export interface TableDataRow {
   lab: string;
   location: string;
   positive: number;
@@ -28,9 +28,9 @@ export class AppService {
 
   constructor(private http: HttpClient) { }
 
-  getAggregateData(): Observable<any> {
-    return this.http.get<any>('assets/json/granite-1k-aggregate.json')
-      .pipe(map(result => result.map((e: ServiceResponseEl) => ({
+  getAggregateData(): Observable<TableDataRow[]> {
+    return this.http.get<ServiceResponseEl[]>('assets/json/granite-1k-aggregate.json')
+      .pipe(map(data => data.map((e: ServiceResponseEl) => ({
         lab: e.Lab,
         location: e.Location,
         positive: e.Positive,
