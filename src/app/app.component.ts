@@ -21,9 +21,9 @@ export class AppComponent implements OnInit {
   tableData: any[] = [];
   initialTableData: any[] = [];
   labs = new FormControl();
-  labsList: Set<string> = new Set();
+  labsList: string[] = [];
   locations = new FormControl();
-  locationsList: Set<string> = new Set();
+  locationsList: string[] = [];
 
   constructor(private appService: AppService) { }
 
@@ -31,14 +31,14 @@ export class AppComponent implements OnInit {
     this.appService.getAggregateData().subscribe(result => {
       this.tableData = result;
       this.initialTableData = result;
-      const labList = [];
-      const locationsList = [];
+      const labList: Set<string> = new Set();
+      const locationsList: Set<string> = new Set();
       for (const row of result) {
-        labList.push(row.lab);
-        locationsList.push(row.location);
+        labList.add(row.lab);
+        locationsList.add(row.location);
       }
-      this.labsList = new Set(labList);
-      this.locationsList = new Set(locationsList);
+      this.labsList = Array.from(labList);
+      this.locationsList = Array.from(locationsList);
     });
   }
 
@@ -52,9 +52,6 @@ export class AppComponent implements OnInit {
     if (filteredLocations && filteredLocations.length > 0) {
       this.tableData = this.tableData.filter(e => filteredLocations.includes(e.location));
     }
-    console.log(filteredLabs);
-    console.log(filteredLocations);
-    console.log(this.tableData);
   }
 
 }
