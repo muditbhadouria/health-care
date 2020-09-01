@@ -1,0 +1,402 @@
+[
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 0,
+   "Negative": 18,
+   "Inconclusive": 0,
+   "Total": 18
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 4,
+   "Negative": 18,
+   "Inconclusive": 1,
+   "Total": 23
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 3,
+   "Negative": 16,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 4,
+   "Negative": 11,
+   "Inconclusive": 0,
+   "Total": 15
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 3,
+   "Negative": 22,
+   "Inconclusive": 0,
+   "Total": 25
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 4,
+   "Negative": 19,
+   "Inconclusive": 1,
+   "Total": 24
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 4,
+   "Negative": 15,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 3,
+   "Negative": 13,
+   "Inconclusive": 0,
+   "Total": 16
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 6,
+   "Negative": 13,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 3,
+   "Negative": 19,
+   "Inconclusive": 0,
+   "Total": 22
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 2,
+   "Negative": 15,
+   "Inconclusive": 0,
+   "Total": 17
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 2,
+   "Negative": 15,
+   "Inconclusive": 0,
+   "Total": 17
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 8,
+   "Negative": 15,
+   "Inconclusive": 1,
+   "Total": 24
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 0,
+   "Negative": 19,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 4,
+   "Negative": 18,
+   "Inconclusive": 1,
+   "Total": 23
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 5,
+   "Negative": 12,
+   "Inconclusive": 0,
+   "Total": 17
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 2,
+   "Negative": 14,
+   "Inconclusive": 2,
+   "Total": 18
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 1,
+   "Negative": 24,
+   "Inconclusive": 0,
+   "Total": 25
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 3,
+   "Negative": 19,
+   "Inconclusive": 1,
+   "Total": 23
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 3,
+   "Negative": 12,
+   "Inconclusive": 2,
+   "Total": 17
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 2,
+   "Negative": 12,
+   "Inconclusive": 1,
+   "Total": 15
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 1,
+   "Negative": 17,
+   "Inconclusive": 1,
+   "Total": 19
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 1,
+   "Negative": 21,
+   "Inconclusive": 0,
+   "Total": 22
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 1,
+   "Negative": 12,
+   "Inconclusive": 1,
+   "Total": 14
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 1,
+   "Negative": 26,
+   "Inconclusive": 3,
+   "Total": 30
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 1,
+   "Negative": 24,
+   "Inconclusive": 0,
+   "Total": 25
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 0,
+   "Negative": 17,
+   "Inconclusive": 1,
+   "Total": 18
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 2,
+   "Negative": 17,
+   "Inconclusive": 1,
+   "Total": 20
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 3,
+   "Negative": 18,
+   "Inconclusive": 0,
+   "Total": 21
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 6,
+   "Negative": 9,
+   "Inconclusive": 1,
+   "Total": 16
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 3,
+   "Negative": 28,
+   "Inconclusive": 0,
+   "Total": 31
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 0,
+   "Negative": 11,
+   "Inconclusive": 0,
+   "Total": 11
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 0,
+   "Negative": 19,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 3,
+   "Negative": 17,
+   "Inconclusive": 0,
+   "Total": 20
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 2,
+   "Negative": 17,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 3,
+   "Negative": 16,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 3,
+   "Negative": 21,
+   "Inconclusive": 1,
+   "Total": 25
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 0,
+   "Negative": 15,
+   "Inconclusive": 0,
+   "Total": 15
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 3,
+   "Negative": 17,
+   "Inconclusive": 0,
+   "Total": 20
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 3,
+   "Negative": 18,
+   "Inconclusive": 0,
+   "Total": 21
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 5,
+   "Negative": 14,
+   "Inconclusive": 0,
+   "Total": 19
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 3,
+   "Negative": 24,
+   "Inconclusive": 1,
+   "Total": 28
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 1,
+   "Negative": 23,
+   "Inconclusive": 1,
+   "Total": 25
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 3,
+   "Negative": 9,
+   "Inconclusive": 0,
+   "Total": 12
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 1,
+   "Negative": 14,
+   "Inconclusive": 1,
+   "Total": 16
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "Positive": 0,
+   "Negative": 14,
+   "Inconclusive": 0,
+   "Total": 14
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "Positive": 1,
+   "Negative": 15,
+   "Inconclusive": 1,
+   "Total": 17
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "Positive": 3,
+   "Negative": 19,
+   "Inconclusive": 1,
+   "Total": 23
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "Positive": 2,
+   "Negative": 22,
+   "Inconclusive": 1,
+   "Total": 25
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "Positive": 2,
+   "Negative": 18,
+   "Inconclusive": 1,
+   "Total": 21
+ }
+]
