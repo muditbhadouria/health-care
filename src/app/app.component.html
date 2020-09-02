@@ -32,26 +32,26 @@
 
     <!-- Positive Column -->
     <ng-container matColumnDef="positive">
-      <th mat-header-cell *matHeaderCellDef> Positive </th>
-      <td mat-cell *matCellDef="let element"> {{element.positive}} </td>
+      <th style="text-align:center" mat-header-cell *matHeaderCellDef> Positive </th>
+      <td style="text-align:center" mat-cell *matCellDef="let element"> {{element.positive}} </td>
     </ng-container>
 
     <!-- Negative Column -->
     <ng-container matColumnDef="negative">
-      <th mat-header-cell *matHeaderCellDef> Negative </th>
-      <td mat-cell *matCellDef="let element"> {{element.negative}} </td>
+      <th style="text-align:center" mat-header-cell *matHeaderCellDef> Negative </th>
+      <td style="text-align:center" mat-cell *matCellDef="let element"> {{element.negative}} </td>
     </ng-container>
 
     <!-- Inconclusive Column -->
     <ng-container matColumnDef="inconclusive">
-      <th mat-header-cell *matHeaderCellDef> Inconclusive </th>
-      <td mat-cell *matCellDef="let element"> {{element.inconclusive}} </td>
+      <th style="text-align:center" mat-header-cell *matHeaderCellDef> Inconclusive </th>
+      <td style="text-align:center" mat-cell *matCellDef="let element"> {{element.inconclusive}} </td>
     </ng-container>
 
     <!-- Total Column -->
     <ng-container matColumnDef="total">
-      <th mat-header-cell *matHeaderCellDef> Total </th>
-      <td mat-cell *matCellDef="let element"> {{element.total}} </td>
+      <th style="text-align:center" mat-header-cell *matHeaderCellDef> Total </th>
+      <td style="text-align:center" mat-cell *matCellDef="let element"> {{element.total}} </td>
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
