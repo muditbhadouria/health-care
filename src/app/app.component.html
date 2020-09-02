@@ -13,7 +13,7 @@
     </mat-select>
   </mat-form-field>
 
-  <table mat-table [dataSource]="tableData" class="mat-elevation-z8">
+  <table mat-table [dataSource]="tableData" class="mat-elevation-z8" <div [ngStyle]="{'background-color': <!--here i need to give some condition to make alternate color background   --> ? 'green' : 'red' }"></<div>>
 
     <!--- Note that these columns can be defined in any order.
           The actual rendered columns are set as a property on the row definition" -->
