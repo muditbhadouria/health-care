@@ -56,6 +56,8 @@
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <tr ng-repeat="a in b" ng-style="{'background-color': (a.name == 'user1') ? ($index % 2 === 0 ? 'orange' : 'yellow') : 'auto'}">
+
   </table>
 
 </div>
