@@ -1,0 +1,9 @@
+@import "~@angular/material/theming";
+
+// Create a config with the default typography levels.
+$custom-typography: mat-typography-config(
+  $font-family: "Mont Serrat Light, sans-serif",
+);
+
+// Override the typography in the core CSS.
+@include mat-core($custom-typography);
