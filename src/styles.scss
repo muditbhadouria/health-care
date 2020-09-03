@@ -9,3 +9,34 @@ body {
   margin: 0;
   background-color: #ffffff;
 }
+
+table {
+  width: 100%;
+  min-width: 768px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mat-row:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+.mat-row:nth-child(odd) {
+  background-color: rgb(241, 241, 241);
+}
+
+.mat-header-cell {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 250px;
+  }
+}
