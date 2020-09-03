@@ -15,14 +15,14 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PaymentsComponent } from './payments/payments.component';
-import { LabsComponent } from './labs/labs.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TestsComponent } from './tests/tests.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TestsComponent,
     PaymentsComponent,
-    LabsComponent,
     ToolbarComponent
   ],
   imports: [

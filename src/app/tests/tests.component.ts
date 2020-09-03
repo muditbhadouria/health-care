@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-
 import { FormControl } from '@angular/forms';
 import { AppService, LabTestDataEl } from '../app.service';
 
 @Component({
-  selector: 'app-labs',
-  templateUrl: './labs.component.html',
-  styleUrls: ['./labs.component.scss']
+  selector: 'app-tests',
+  templateUrl: './tests.component.html',
+  styleUrls: ['./tests.component.scss']
 })
-export class LabsComponent implements OnInit {
+export class TestsComponent implements OnInit {
   displayedColumns: string[] = ['lab', 'location', 'positive', 'negative', 'inconclusive', 'total'];
   tableData: LabTestDataEl[] = [];
   initialTableData: LabTestDataEl[] = [];
