@@ -1,0 +1,402 @@
+[
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 7,
+   "ThirdParty": 11,
+   "Uninsured": 2,
+   "Total": 20
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 9,
+   "ThirdParty": 8,
+   "Uninsured": 3,
+   "Total": 20
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 7,
+   "ThirdParty": 10,
+   "Uninsured": 4,
+   "Total": 21
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 13,
+   "ThirdParty": 6,
+   "Uninsured": 5,
+   "Total": 24
+ },
+ {
+   "Lab": "Alpha Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 6,
+   "ThirdParty": 3,
+   "Uninsured": 6,
+   "Total": 15
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 6,
+   "ThirdParty": 4,
+   "Uninsured": 6,
+   "Total": 16
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 13,
+   "ThirdParty": 7,
+   "Uninsured": 5,
+   "Total": 25
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 12,
+   "ThirdParty": 3,
+   "Uninsured": 3,
+   "Total": 18
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 11,
+   "ThirdParty": 8,
+   "Uninsured": 3,
+   "Total": 22
+ },
+ {
+   "Lab": "Beta Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 11,
+   "ThirdParty": 5,
+   "Uninsured": 3,
+   "Total": 19
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 6,
+   "ThirdParty": 8,
+   "Uninsured": 3,
+   "Total": 17
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 8,
+   "ThirdParty": 9,
+   "Uninsured": 7,
+   "Total": 24
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 13,
+   "ThirdParty": 8,
+   "Uninsured": 3,
+   "Total": 24
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 7,
+   "ThirdParty": 6,
+   "Uninsured": 5,
+   "Total": 18
+ },
+ {
+   "Lab": "Charlie Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 6,
+   "ThirdParty": 4,
+   "Uninsured": 7,
+   "Total": 17
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 9,
+   "ThirdParty": 5,
+   "Uninsured": 5,
+   "Total": 19
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 8,
+   "ThirdParty": 12,
+   "Uninsured": 5,
+   "Total": 25
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 8,
+   "ThirdParty": 6,
+   "Uninsured": 6,
+   "Total": 20
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 10,
+   "ThirdParty": 7,
+   "Uninsured": 5,
+   "Total": 22
+ },
+ {
+   "Lab": "Delta Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 7,
+   "ThirdParty": 3,
+   "Uninsured": 4,
+   "Total": 14
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 9,
+   "ThirdParty": 2,
+   "Uninsured": 2,
+   "Total": 13
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 10,
+   "ThirdParty": 11,
+   "Uninsured": 5,
+   "Total": 26
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 7,
+   "ThirdParty": 7,
+   "Uninsured": 7,
+   "Total": 21
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 9,
+   "ThirdParty": 4,
+   "Uninsured": 6,
+   "Total": 19
+ },
+ {
+   "Lab": "Epsilon Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 15,
+   "ThirdParty": 4,
+   "Uninsured": 2,
+   "Total": 21
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 11,
+   "ThirdParty": 6,
+   "Uninsured": 2,
+   "Total": 19
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 4,
+   "ThirdParty": 9,
+   "Uninsured": 9,
+   "Total": 22
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 9,
+   "ThirdParty": 5,
+   "Uninsured": 2,
+   "Total": 16
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 9,
+   "ThirdParty": 7,
+   "Uninsured": 5,
+   "Total": 21
+ },
+ {
+   "Lab": "Futures Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 8,
+   "ThirdParty": 12,
+   "Uninsured": 2,
+   "Total": 22
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 5,
+   "ThirdParty": 6,
+   "Uninsured": 5,
+   "Total": 16
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 9,
+   "ThirdParty": 4,
+   "Uninsured": 5,
+   "Total": 18
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 10,
+   "ThirdParty": 6,
+   "Uninsured": 5,
+   "Total": 21
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 15,
+   "ThirdParty": 7,
+   "Uninsured": 4,
+   "Total": 26
+ },
+ {
+   "Lab": "Green Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 11,
+   "ThirdParty": 2,
+   "Uninsured": 6,
+   "Total": 19
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 13,
+   "ThirdParty": 5,
+   "Uninsured": 3,
+   "Total": 21
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 10,
+   "ThirdParty": 4,
+   "Uninsured": 3,
+   "Total": 17
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 16,
+   "ThirdParty": 2,
+   "Uninsured": 4,
+   "Total": 22
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 13,
+   "ThirdParty": 4,
+   "Uninsured": 4,
+   "Total": 21
+ },
+ {
+   "Lab": "Hero Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 11,
+   "ThirdParty": 5,
+   "Uninsured": 3,
+   "Total": 19
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 15,
+   "ThirdParty": 5,
+   "Uninsured": 1,
+   "Total": 21
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 14,
+   "ThirdParty": 9,
+   "Uninsured": 9,
+   "Total": 32
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 10,
+   "ThirdParty": 8,
+   "Uninsured": 3,
+   "Total": 21
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 11,
+   "ThirdParty": 1,
+   "Uninsured": 2,
+   "Total": 14
+ },
+ {
+   "Lab": "Insight Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 7,
+   "ThirdParty": 3,
+   "Uninsured": 2,
+   "Total": 12
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Colby College",
+   "CreditCard": 9,
+   "ThirdParty": 12,
+   "Uninsured": 6,
+   "Total": 27
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Corners Church",
+   "CreditCard": 6,
+   "ThirdParty": 7,
+   "Uninsured": 5,
+   "Total": 18
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Davidson College",
+   "CreditCard": 11,
+   "ThirdParty": 4,
+   "Uninsured": 5,
+   "Total": 20
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Hunter College",
+   "CreditCard": 6,
+   "ThirdParty": 6,
+   "Uninsured": 5,
+   "Total": 17
+ },
+ {
+   "Lab": "Just Genomics",
+   "Location": "COVID Consortium - Vassar College",
+   "CreditCard": 10,
+   "ThirdParty": 6,
+   "Uninsured": 2,
+   "Total": 18
+ }
+]

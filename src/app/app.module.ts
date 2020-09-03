@@ -4,16 +4,26 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaymentsComponent } from './payments/payments.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TestsComponent } from './tests/tests.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestsComponent,
+    PaymentsComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +33,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ReactiveFormsModule,
     MatTableModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatToolbarModule,
+    MatButtonModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
