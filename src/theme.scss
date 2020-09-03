@@ -3,6 +3,7 @@
 // Create a config with the default typography levels.
 $custom-typography: mat-typography-config(
   $font-family: "Mont Serrat Light, sans-serif",
+  $caption: mat-typography-level(16px, 24px, 500),
 );
 
 // Override the typography in the core CSS.

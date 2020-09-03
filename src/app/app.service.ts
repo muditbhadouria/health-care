@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-interface ServiceResponseEl {
+interface LabTestServiceResponseEl {
   Lab: string;
   Location: string;
   Positive: number;
@@ -12,12 +12,30 @@ interface ServiceResponseEl {
   Total: number;
 }
 
-export interface TableDataRow {
+interface LabPaymentServiceResponseEl {
+  Lab: string;
+  Location: string;
+  CreditCard: number;
+  ThirdParty: number;
+  Uninsured: number;
+  Total: number;
+}
+
+export interface LabTestDataEl {
   lab: string;
   location: string;
   positive: number;
   negative: number;
   inconclusive: number;
+  total: number;
+}
+
+export interface LabPaymentDataEl {
+  lab: string;
+  location: string;
+  creditCard: number;
+  thirdParty: number;
+  uninsured: number;
   total: number;
 }
 
@@ -28,14 +46,26 @@ export class AppService {
 
   constructor(private http: HttpClient) { }
 
-  getAggregateData(): Observable<TableDataRow[]> {
-    return this.http.get<ServiceResponseEl[]>('assets/json/granite-1k-aggregate.json')
-      .pipe(map(data => data.map((e: ServiceResponseEl) => ({
+  getLabTestsData(): Observable<LabTestDataEl[]> {
+    return this.http.get<LabTestServiceResponseEl[]>('assets/json/granite-labs.json')
+      .pipe(map(data => data.map((e: LabTestServiceResponseEl) => ({
         lab: e.Lab,
         location: e.Location,
         positive: e.Positive,
         negative: e.Negative,
         inconclusive: e.Inconclusive,
+        total: e.Total
+      }))));
+  }
+
+  getLabPaymentsData(): Observable<LabPaymentDataEl[]> {
+    return this.http.get<LabPaymentServiceResponseEl[]>('assets/json/granite-payments.json')
+      .pipe(map(data => data.map((e: LabPaymentServiceResponseEl) => ({
+        lab: e.Lab,
+        location: e.Location,
+        creditCard: e.CreditCard,
+        thirdParty: e.ThirdParty,
+        uninsured: e.Uninsured,
         total: e.Total
       }))));
   }
